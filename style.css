@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(90deg,blue,brown,orange);
+}
+.container 
+    {
+        width: 800px;
+        height: auto;
+        background-image: linear-gradient(90deg,yellow,red);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+form {
+      margin: 0 auto;
+      width: 600px;
+    }
+    
+p{
+  margin-top: 10px;
+  color:blue;
+   font-size: 25px;   
+   margin-left: 10px;      
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+span{
+  color:red;
+   font-size: 20px;         
+}    
+      

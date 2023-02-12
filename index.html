@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Form Start -->
+<h1 style="text-align: center; color:white;">Pixel 6</h1>
+<div class="container">
+<form id="form" name="RegForm" onsubmit="return validation()" action="confirm.html" method="post">
+<!-- Paramenter -->
+<p> Full Name:</p><input type="text" size="30" id="name" onfocusout="myname()">
+ <span id="username"></span>
+            <br />
+             
+<p>E-mail:</p> <input type="text" size="30" id="email" onfocusout="myemail()"/>
+<span id="email2"></span> 
+            <br />
+            
+ <p>Pan:</p> <input type="text" size="30" id="pan" maxlength="10" onfocusout="mypan()"/>
+ <span id="pan2"></span>
+        
+ 
+            <br />
+             
+<p>Loan Amount:</p> <input type="text" size="30" id="amt" onfocusout="myint()" />
+<span id="amt2"></span>
+            <br />
+   <p>
+<input name="submit" type="submit" value="Submit" id="submit" style="background-color: green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;">
+   </p>
+ </form>
+</div>
+ <!-- Form END -->
+ <script src="script.js"></script>
+ </body>
+</html>
+
